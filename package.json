@@ -1,0 +1,32 @@
+{
+  "name": "pdf-chat-app",
+  "version": "1.0.0",
+  "description": "AI-powered PDF document analysis and question answering application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "build": "cd frontend && npm run build",
+    "test-backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "pdf",
+    "chat",
+    "ai",
+    "mern",
+    "react",
+    "node",
+    "rag",
+    "embeddings"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
